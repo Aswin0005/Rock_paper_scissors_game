@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(29, 28, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.title-font{
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.rock-button,
+.paper-button,
+.scissors-button{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border-color: white;
+    border-width: 3px;
+    border:ridge;
+    background-color: rgb(29, 28, 28) ;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.rock-emoji,
+.paper-emoji,
+.scissors-emoji{
+    height: 50px;
+}
+
+.reset-button{
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+}
